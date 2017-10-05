@@ -1,0 +1,11 @@
+{
+  "name": "is_session_locked",
+  "description": "Detect whether the Windows user session is locked.",
+  "version": "0.0.2",
+  "license" : "BSD-3-Clause",
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/kljh/is_session_locked.git"
+  },
+  "dependencies": {}
+}
