@@ -1,3 +1,5 @@
+#ifdef _WIN32
+
 #include <Windows.h>
 #include <stdio.h>
 
@@ -12,3 +14,11 @@ int is_session_locked() {
   }
   return !bSwitch;
 }
+
+#else
+
+int is_session_locked() {
+	return true;
+}
+
+#endif
