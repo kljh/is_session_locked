@@ -1,5 +1,6 @@
 # is_session_locked
 
+[![Travis CI][travis-image]][travis-url]
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 
@@ -34,6 +35,8 @@ Return `false` if the user is logged-in and the session is in use.
 
 [BSD-3-Clause](LICENSE)
 
+[travis-image]: https://img.shields.io/travis/kljh/is_session_locked.svg
+[travis-url]: https://travis-ci.org/kljh/is_session_locked
 [npm-image]: https://img.shields.io/npm/v/is_session_locked.svg
 [npm-url]: https://npmjs.org/package/is_session_locked
 [downloads-image]: https://img.shields.io/npm/dm/is_session_locked.svg
